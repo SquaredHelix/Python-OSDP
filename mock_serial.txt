@@ -1,9 +1,0 @@
-53 01 07 00 00 60 45               # POLL                  -> PD should respond with ACK or BUSY
-53 01 07 00 00 61 44               # ID request (0x61)     -> PD responds with PDID
-53 01 07 00 00 62 43               # CAP request (0x62)    -> PD responds with PDCAP
-53 01 07 00 00 64 41               # LSTAT request (0x64)  -> PD responds with LSTATR
-53 01 07 00 00 67 3E               # RSTAT request (0x67)  -> PD responds with RSTATR
-53 01 09 00 00 69 01 03 36         # LED command (0x69)    -> PD responds with ACK
-53 01 09 00 00 6A 01 03 35         # BUZ command (0x6A)    -> PD responds with ACK
-53 01 07 00 00 60 45               # POLL                  -> PD responds with RAW or FMT card data (card swipe)
-53 01 08 00 00 68 01 3B            # OUT command (0x68)    -> PD responds with ACK (unlock door)
